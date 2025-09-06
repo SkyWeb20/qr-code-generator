@@ -4,6 +4,8 @@
 
 _A modern, beautiful, and fully Persian QR code generator with advanced styling and frame options._
 
+[مشاهده نسخه آنلاین سایت](https://skyweb20.github.io/qr-code-generator/)
+
 ## ✨ ویژگی‌ها | Features
 
 ### 🎯 انواع کیو آر کد | QR Code Types
