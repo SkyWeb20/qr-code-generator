@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تولید کننده کیو آر کد - ساخت کیو آر کد برای همه چیز</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23667eea;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23764ba2;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='15' fill='url(%23grad)'/%3E%3Cg fill='white'%3E%3Crect x='15' y='15' width='25' height='25' rx='3'/%3E%3Crect x='60' y='15' width='25' height='25' rx='3'/%3E%3Crect x='15' y='60' width='25' height='25' rx='3'/%3E%3Crect x='20' y='20' width='15' height='15' rx='2'/%3E%3Crect x='65' y='20' width='15' height='15' rx='2'/%3E%3Crect x='20' y='65' width='15' height='15' rx='2'/%3E%3Crect x='50' y='50' width='8' height='8' rx='1'/%3E%3Crect x='65' y='50' width='8' height='8' rx='1'/%3E%3Crect x='80' y='50' width='8' height='8' rx='1'/%3E%3Crect x='50' y='65' width='8' height='8' rx='1'/%3E%3Crect x='80' y='65' width='8' height='8' rx='1'/%3E%3Crect x='50' y='80' width='8' height='8' rx='1'/%3E%3Crect x='65' y='80' width='8' height='8' rx='1'/%3E%3Crect x='80' y='80' width='8' height='8' rx='1'/%3E%3Crect x='50' y='35' width='5' height='5' rx='1'/%3E%3Crect x='60' y='35' width='5' height='5' rx='1'/%3E%3Crect x='70' y='35' width='5' height='5' rx='1'/%3E%3Crect x='80' y='35' width='5' height='5' rx='1'/%3E%3C/g%3E%3C/svg%3E">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23667eea;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23764ba2;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='15' fill='url(%23grad)'/%3E%3Cg fill='white'%3E%3Crect x='15' y='15' width='25' height='25' rx='3'/%3E%3Crect x='60' y='15' width='25' height='25' rx='3'/%3E%3Crect x='15' y='60' width='25' height='25' rx='3'/%3E%3Crect x='20' y='20' width='15' height='15' rx='2'/%3E%3Crect x='65' y='20' width='15' height='15' rx='2'/%3E%3Crect x='20' y='65' width='15' height='15' rx='2'/%3E%3Crect x='50' y='50' width='8' height='8' rx='1'/%3E%3Crect x='65' y='50' width='8' height='8' rx='1'/%3E%3Crect x='80' y='50' width='8' height='8' rx='1'/%3E%3Crect x='50' y='65' width='8' height='8' rx='1'/%3E%3Crect x='80' y='65' width='8' height='8' rx='1'/%3E%3Crect x='50' y='80' width='8' height='8' rx='1'/%3E%3Crect x='65' y='80' width='8' height='8' rx='1'/%3E%3Crect x='80' y='80' width='8' height='8' rx='1'/%3E%3Crect x='50' y='35' width='5' height='5' rx='1'/%3E%3Crect x='60' y='35' width='5' height='5' rx='1'/%3E%3Crect x='70' y='35' width='5' height='5' rx='1'/%3E%3Crect x='80' y='35' width='5' height='5' rx='1'/%3E%3C/g%3E%3C/svg%3E">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-qrcode"></i> تولیدکننده کیو آر کد</h1>
+            <p>کیو آر کدهای زیبا بسازید!</p>
+        </header>
+
+        <main>
+            <div class="generator-section">
+                <div class="type-selector">
+                    <h2>نوع کیو آر کد را انتخاب کنید</h2>
+                    <div class="type-grid">
+                        <button class="type-btn active" data-type="url">
+                            <i class="fas fa-link"></i>
+                            <span>آدرس وب سایت</span>
+                        </button>
+                        <button class="type-btn" data-type="text">
+                            <i class="fas fa-font"></i>
+                            <span>متن</span>
+                        </button>
+                        <button class="type-btn" data-type="email">
+                            <i class="fas fa-envelope"></i>
+                            <span>ایمیل</span>
+                        </button>
+                        <button class="type-btn" data-type="phone">
+                            <i class="fas fa-phone"></i>
+                            <span>تلفن</span>
+                        </button>
+                        <button class="type-btn" data-type="sms">
+                            <i class="fas fa-sms"></i>
+                            <span>پیامک</span>
+                        </button>
+                        <button class="type-btn" data-type="wifi">
+                            <i class="fas fa-wifi"></i>
+                            <span>وای فای</span>
+                        </button>
+                        <button class="type-btn" data-type="vcard">
+                            <i class="fas fa-address-card"></i>
+                            <span>کارت مخاطب</span>
+                        </button>
+                        <button class="type-btn" data-type="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>مکان</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="input-section">
+                    <h2>محتوای خود را وارد کنید</h2>
+
+                    <!-- URL Form -->
+                    <div class="form-group" id="url-form">
+                        <label for="url-input">آدرس وب سایت:</label>
+                        <input type="url" id="url-input" placeholder="https://example.com" />
+                    </div>
+
+                    <!-- Text Form -->
+                    <div class="form-group hidden" id="text-form">
+                        <label for="text-input">محتوای متنی:</label>
+                        <textarea id="text-input" placeholder="متن خود را اینجا بنویسید..." rows="4"></textarea>
+                    </div>
+
+                    <!-- Email Form -->
+                    <div class="form-group hidden" id="email-form">
+                        <label for="email-address">آدرس ایمیل:</label>
+                        <input type="email" id="email-address" placeholder="example@email.com" />
+                        <label for="email-subject">عنوان (اختیاری):</label>
+                        <input type="text" id="email-subject" placeholder="عنوان ایمیل" />
+                        <label for="email-body">پیام (اختیاری):</label>
+                        <textarea id="email-body" placeholder="متن ایمیل..." rows="3"></textarea>
+                    </div>
+
+                    <!-- Phone Form -->
+                    <div class="form-group hidden" id="phone-form">
+                        <label for="phone-number">شماره تلفن:</label>
+                        <input type="tel" id="phone-number" placeholder="+989123456789" />
+                    </div>
+
+                    <!-- SMS Form -->
+                    <div class="form-group hidden" id="sms-form">
+                        <label for="sms-number">شماره تلفن:</label>
+                        <input type="tel" id="sms-number" placeholder="+989123456789" />
+                        <label for="sms-message">پیام (اختیاری):</label>
+                        <textarea id="sms-message" placeholder="متن پیامک..." rows="3"></textarea>
+                    </div>
+
+                    <!-- WiFi Form -->
+                    <div class="form-group hidden" id="wifi-form">
+                        <label for="wifi-ssid">نام شبکه (SSID):</label>
+                        <input type="text" id="wifi-ssid" placeholder="نام شبکه وای فای" />
+                        <label for="wifi-password">رمز عبور:</label>
+                        <input type="text" id="wifi-password" placeholder="رمز عبور وای فای" />
+                        <label for="wifi-security">نوع امنیت:</label>
+                        <select id="wifi-security">
+                            <option value="WPA">WPA/WPA2</option>
+                            <option value="WEP">WEP</option>
+                            <option value="nopass">باز (بدون رمز)</option>
+                        </select>
+                        <label>
+                            <input type="checkbox" id="wifi-hidden" />
+                            شبکه مخفی
+                        </label>
+                    </div>
+
+                    <!-- vCard Form -->
+                    <div class="form-group hidden" id="vcard-form">
+                        <label for="vcard-name">نام کامل:</label>
+                        <input type="text" id="vcard-name" placeholder="علی احمدی" />
+                        <label for="vcard-org">سازمان:</label>
+                        <input type="text" id="vcard-org" placeholder="نام شرکت" />
+                        <label for="vcard-phone">تلفن:</label>
+                        <input type="tel" id="vcard-phone" placeholder="+989123456789" />
+                        <label for="vcard-email">ایمیل:</label>
+                        <input type="email" id="vcard-email" placeholder="example@email.com" />
+                        <label for="vcard-url">وب سایت:</label>
+                        <input type="url" id="vcard-url" placeholder="https://example.com" />
+                    </div>
+
+                    <!-- Location Form -->
+                    <div class="form-group hidden" id="location-form">
+                        <label for="location-lat">عرض جغرافیایی:</label>
+                        <input type="number" id="location-lat" step="any" placeholder="35.6944" />
+                        <label for="location-lng">طول جغرافیایی:</label>
+                        <input type="number" id="location-lng" step="any" placeholder="51.4215" />
+                        <button type="button" id="get-location" class="secondary-btn">
+                            <i class="fas fa-location-arrow"></i> استفاده از مکان من
+                        </button>
+                    </div>
+
+                    <div class="customization-section">
+                        <h3>شخصی سازی کیو آر کد</h3>
+
+                        <!-- Style Selection -->
+                        <div class="style-section">
+                            <h4>انتخاب استایل</h4>
+                            <div class="style-grid">
+                                <div class="style-option" data-style="classic">
+                                    <div class="style-preview classic-preview"></div>
+                                    <span>کلاسیک</span>
+                                </div>
+                                <div class="style-option active" data-style="rounded">
+                                    <div class="style-preview rounded-preview"></div>
+                                    <span>گرد</span>
+                                </div>
+                                <div class="style-option" data-style="dotted">
+                                    <div class="style-preview dotted-preview"></div>
+                                    <span>نقطه‌ای</span>
+                                </div>
+                                <div class="style-option" data-style="gradient">
+                                    <div class="style-preview gradient-preview"></div>
+                                    <span>گرادیان</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frame Selection -->
+                        <div class="frame-section">
+                            <h4>انتخاب قاب</h4>
+                            <div class="frame-grid">
+                                <div class="frame-option active" data-frame="none">
+                                    <div class="frame-preview no-frame"></div>
+                                    <span>بدون قاب</span>
+                                </div>
+                                <div class="frame-option" data-frame="simple">
+                                    <div class="frame-preview simple-frame"></div>
+                                    <span>ساده</span>
+                                </div>
+                                <div class="frame-option" data-frame="shadow">
+                                    <div class="frame-preview shadow-frame"></div>
+                                    <span>سایه دار</span>
+                                </div>
+                                <div class="frame-option" data-frame="elegant">
+                                    <div class="frame-preview elegant-frame"></div>
+                                    <span>شیک</span>
+                                </div>
+                                <div class="frame-option" data-frame="tech">
+                                    <div class="frame-preview tech-frame"></div>
+                                    <span>تکنولوژی</span>
+                                </div>
+                                <div class="frame-option" data-frame="colorful">
+                                    <div class="frame-preview colorful-frame"></div>
+                                    <span>رنگی</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Color Selection -->
+                        <div class="color-section">
+                            <h4>انتخاب رنگ</h4>
+                            <div class="color-options">
+                                <div class="color-item">
+                                    <label for="fg-color">رنگ اصلی:</label>
+                                    <input type="color" id="fg-color" value="#000000">
+                                </div>
+                                <div class="color-item">
+                                    <label for="bg-color">رنگ پس‌زمینه:</label>
+                                    <input type="color" id="bg-color" value="#ffffff">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="customization-grid">
+                            <div class="custom-item">
+                                <label for="qr-size">اندازه:</label>
+                                <select id="qr-size">
+                                    <option value="200">کوچک (200x200)</option>
+                                    <option value="300" selected>متوسط (300x300)</option>
+                                    <option value="400">بزرگ (400x400)</option>
+                                    <option value="500">خیلی بزرگ (500x500)</option>
+                                </select>
+                            </div>
+                            <div class="custom-item">
+                                <label for="qr-error-level">تصحیح خطا:</label>
+                                <select id="qr-error-level">
+                                    <option value="L">کم (~7%)</option>
+                                    <option value="M" selected>متوسط (~15%)</option>
+                                    <option value="Q">بالا (~25%)</option>
+                                    <option value="H">خیلی بالا (~30%)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="generate-btn" class="generate-btn">
+                        <i class="fas fa-magic"></i> تولید کیو آر کد
+                    </button>
+                </div>
+            </div>
+
+            <div class="result-section">
+                <div class="qr-container">
+                    <div id="qr-placeholder" class="qr-placeholder">
+                        <i class="fas fa-qrcode"></i>
+                        <p>کیو آر کد شما اینجا ظاهر می شود</p>
+                    </div>
+                    <div id="qr-result" class="qr-result hidden"></div>
+                </div>
+
+                <div class="download-section hidden" id="download-section">
+                    <h3>گزینه های دانلود</h3>
+                    <div class="download-buttons">
+                        <button id="download-png" class="download-btn">
+                            <i class="fas fa-download"></i> دانلود PNG
+                        </button>
+                        <button id="download-svg" class="download-btn">
+                            <i class="fas fa-vector-square"></i> دانلود SVG
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; تولیدکننده کیو آر کد. کیو آر کدهای زیبا به صورت رایگان بسازید!</p>
+        </footer>
+    </div>
+
+    <script src="qrious.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
